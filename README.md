@@ -1,6 +1,6 @@
 # microservices-demo
 
-Demo application to go with my [Microservices Blog](https://spring.io/blog/2015/07/14/microservices-with-spring) on the spring.io website.  **WARNING:** Only maven build has been updated.  Gradle build still to be done.
+Demo application to go with [Microservices Blog](https://spring.io/blog/2015/07/14/microservices-with-spring) on the spring.io website.  **WARNING:** Only maven build has been updated.  Gradle build still to be done.
 
 ![Demo System Schematic](https://github.com/paulc4/microservices-demo/blob/master/mini-system.jpg)
 
@@ -60,7 +60,7 @@ To run the microservices system from the command-line, open three CMD windows (W
 You should see servers being registered in the log output of the first (registration) window.
 As you interact with the Web application, you should log in both the second and third windows.
 
-For a list of valid accounts refer to the [data.sql](https://github.com/paulc4/microservices-demo/blob/master/src/main/resources/testdb/data.sql) that is used by the Account Service to set them up.
+For a list of valid accounts refer to the [data.sql](https://github.com/marko1212/microservices-demo/blob/master/src/main/resources/testdb/data.sql) that is used by the Account Service to set them up.
 
  1. In a new window, run up a second account-server using HTTP port 2223:
      * `java -jar target/microservices-demo-2.1.0.RELEASE.jar accounts 2223`
