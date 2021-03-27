@@ -58,7 +58,7 @@ To run the microservices system from the command-line, open three CMD windows (W
  1. In your favorite browser open the same two links: [http://localhost:1111](http://localhost:1111) and [http://localhost:3333](http://localhost:3333)
 
 You should see servers being registered in the log output of the first (registration) window.
-As you interact wiht the Web application, you should logging in the both the second and third windows.
+As you interact with the Web application, you should log in both the second and third windows.
 
 For a list of valid accounts refer to the [data.sql](https://github.com/paulc4/microservices-demo/blob/master/src/main/resources/testdb/data.sql) that is used by the Account Service to set them up.
 
