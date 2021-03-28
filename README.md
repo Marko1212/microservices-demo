@@ -45,7 +45,7 @@ java -jar target/microservices-demo-2.1.0.RELEASE.jar registration|accounts|web
 
 ### Procedure
 
- 0. Run: `mvn -N io.takari:maven:wrapper at the root of the project` (https://github.com/takari/takari-maven-plugin)
+ 0. Run: `mvn -N io.takari:maven:wrapper` at the root of the project (https://github.com/takari/takari-maven-plugin)
 
 To run the microservices system from the command-line, open three CMD windows (Windows) or three Terminal windows (MacOS, Linux) and arrange so you can view them conveniently.
 
